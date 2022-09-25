@@ -1,0 +1,51 @@
+.featured {
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+}
+.container{
+    margin: 3rem auto;
+}
+.guide{
+    width: 83%;
+    margin: 0 auto;
+    border-top: 1px solid gray; 
+}
+.guide a{
+    text-decoration: underline;
+    color: white;
+    
+}
+.card {
+    margin: 1rem auto;
+    background-color: rgb(80, 80, 80);
+    border: none;
+    border-radius: none;
+    color: rgb(240, 240, 240);
+}
+.card-title{
+    background-color: rgb(145, 0, 0);
+    color: rgb(240, 240, 240);
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+}
+.btnCard{
+    background: rgb(145,0,0);
+    border: none;
+    color: white;
+}
+.card-text{
+    font-size: 1rem;
+}
+.modeBtn{
+    line-height: 1.5rem; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    padding:0px; 
+    font-size: .8rem; 
+    width:10rem; 
+    background-color: rgba(0, 0, 0, 0.446); 
+    border: 1.5px solid rgb(145, 0, 0);
+}

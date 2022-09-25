@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="./style-folj oss.css">
+    <link rel="stylesheet" href="./recept.css">
+    <link rel="stylesheet" href="./pannbiff.css">
+    <link href="./icons/css/fontawesome.css" rel="stylesheet">
+    <link href="./icons/css/brands.css" rel="stylesheet">
+    <link href="./icons/css/solid.css" rel="stylesheet">
+    <link href="./icons/css/all.css" rel="stylesheet">
+    <title>Tierps kommun Kostenheten - Recept</title>
+</head>
+
+<body class="mode" id="mode">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">§
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="img-fluid float-start" style="width: 50px;"
+                        src="./image/Tierp2, färg, två rader.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recept.html">Recept</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit"
+                            style="color:rgb(255, 255, 255);background:rgb(145, 0, 0);">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <!-- Go top function -->
+        <button onclick="topFunction()" id="goTop" title="Go to top">Top</button>
+
+        <!-- <button class="btn btn-danger modeBtn" id="changMode" onclick="modeChange()">Light Mode</button> -->
+        <bodyAera class="bodyAera">
+            <div class="container intro">
+                <div class="row">
+                    <div class="col" style="margin-top: 3rem;">
+                        <div data-aos="fade-up" data-aos-duration="2200" class="card" id="card" style="width: 28rem;">
+                            <img src="./image/ommat/biffar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nötfärs biffar</h5>
+                                <p class="card-text">Klassiska maträtten, nötfärs hemma gjorde biffar med gräddesås och
+                                    kokt potatis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="recept">
+                            <h1>Nötfärs biffar</h1>
+                            <p>Klassiska pannstekta biffar med smörstekt lök är en omtyckt rätt. Stek löken länge på
+                                medelvärme så
+                                att den karamelliseras och blir söt. Servera gärna potatis och färgstarka grönsaker
+                                till, det piggar
+                                upp den bruna men goda maträtten.</p>
+                            <h4>Gör så här</h4>
+                            <p>Blanda ströbröd och grädde i en bunke. <br> Låt svälla ca 10 min. <br>
+                                Lägg i färs, lök, ägg, salt och peppar. <br> Rör till en jämn smet. Forma smeten till
+                                jämna biffar. Stek
+                                dem i smör-&rapsolja i en stekpanna på medelvärme ca 5 min. <br>
+                                Skala och skiva lökarna. <br> Stek i smör-&rapsolja tills löken är gyllenbruna och
+                                mjuka. Smaka av med
+                                salt och peppar.</p>
+                            <div class="back">
+                                    <div style="margin: 2rem auto; text-align: left; font-size: 1.5rem;">Ingredienser</div>
+                                    <div class="parent">
+                                        <label for="mande">Portion</label>
+                                        <select name="portion" id="portion">
+                                            <option value="0" selected="this.selected"></option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="4">4</option>
+                                            <option value="6">6</option>
+                                            <option value="8">8</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    <br>
+                                    <div>Nötkött färs</div>
+                                    <div class="amount" id="meat"></div>
+                                    <div>Lök</div>
+                                    <div class="amount" id="onion"></div>
+                                    <div>Ägg</div>
+                                    <div class="amount" id="egg"></div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="section-3" style="width:80%; margin:auto;">
+                    <h1 style="font-size: 1.05rem;">Följ Oss</h1>
+                    <a id="FO1" href="https://www.instagram.com/nyacentralkoket/"><i
+                            class="fa-brands fa-instagram"></i>&nbsp
+                        CENTRALSKOLANSKÖKET</a>&nbsp &nbsp
+                    <a id="FO2" href="https://www.instagram.com/matiorbyhus/"><i
+                            class="fa-brands fa-instagram"></i>&nbsp
+                        ÖRBYHUSSKOLANSKÖKET</a>&nbsp &nbsp
+                    <a id="FO3" href="https://www.instagram.com/skolmat_vendel/"><i
+                            class="fa-brands fa-instagram"></i>&nbsp
+                        VENDELSKOLANKÖKET</a>&nbsp &nbsp
+                    <a id="FO4" href="https://www.youtube.com/channel/UCI1wNW0_2ZeZO8woJ-U3Q8w"><i
+                            class="fa-brands fa-youtube"></i>&nbsp
+                        YOUTEBE KANEL</a>
+                </section>
+        </bodyAera>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <ul class="foot">
+                    <li><a href="http://www.tierp.se">Tierp.se</a></li>
+                    <li><a href="http://webmenu.foodit.se/?r=3&m=360&p=580&c=10110&w=0&v=Week">Matsedel</a></li>
+                    <li><a
+                            href="https://www.tierp.se/tierp.se/forskola-och-utbildning/skolbarn-6-16-ar/mat-i-skolan.html">Specialkost</a>
+                    </li>
+                    <li><a href="https://www.livsmedelsverket.se/">Livsmedelsverket</a></li>
+                </ul>
+            </div>
+            <div class="outer">
+                <div class="kontakt-info">
+                    <div>Tierps kommun <br>
+                        Centralgatan 7 <br>
+                        815 80 Tierp
+                    </div>
+                    <div>
+                        Tel. växel: 0293-21 80 00 <br>
+                        Medborgarservice: 0293-21 80 88 <br>
+                        E-post: medborgarservice@tierp.se
+                    </div>
+                    <div class="foot-logo">
+                        <img src="./image/Tierp1-1rad.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h5
+                style="text-align: center; font-size: 2vmin; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: rgb(0, 0, 0); color: white; padding: 30px;">
+                © 2022 Josef.Abliz
+                .All Rights reserved &nbsp TIERPS KOMMUN KOSTENHETEN</h5>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@3.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        //Get the button
+        {
+            var mybutton = document.getElementById("goTop");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        }
+        // ... ... ... ... ... ... ... ... ... ... ... 
+
+        // mode change function
+
+        var c = 0;
+
+        function modeChange() {
+            if (c == 0) {
+                document.getElementById("mode").style.backgroundColor = "rgb(190,190,190)";
+                document.getElementById("changMode").innerHTML = "Dark Mode";
+
+                document.getElementById("FO1").style.color = "black";
+                document.getElementById("FO2").style.color = "black";
+                document.getElementById("FO3").style.color = "black";
+                document.getElementById("FO4").style.color = "black";
+
+                c = 1;
+            } else if (c == 1) {
+                document.getElementById("mode").style.backgroundColor = "rgb(40,40,40)";
+                document.getElementById("changMode").innerHTML = "Light Mode";
+
+                document.getElementById("FO1").style.color = "white";
+                document.getElementById("FO2").style.color = "white";
+                document.getElementById("FO3").style.color = "white";
+                document.getElementById("FO4").style.color = "white";
+                c = 0;
+            }
+
+        }
+    </script>
+    <script>
+        let portion = document.getElementById('portion');
+
+        portion.addEventListener('change', function () {
+
+            let meat = document.getElementById('meat');
+            let onion = document.getElementById('onion');
+            let egg = document.getElementById('egg');
+            let amount = portion.value;
+            meat.innerText = myFunctionMeat(amount);
+            onion.innerText = myFunctionOnion(amount);
+            egg.innerText = myFunctionEgg(amount);
+
+            function myFunctionMeat(amount) {
+                let meat = 100 * amount;
+                var meatAmount = meat + ' ' + 'gram';
+                return meatAmount;
+            }
+
+            function myFunctionOnion(amount) {
+                let onion = 25 * amount;
+                let onionAmount = onion + ' ' + 'gram';
+
+                return onionAmount;
+            }
+
+            function myFunctionEgg(amount) {
+                let egg = 1 * amount;
+                let eggAmount = egg;
+                return eggAmount;
+            }
+
+
+        }, false);
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

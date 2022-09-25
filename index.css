@@ -1,0 +1,599 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.mode {
+    background-color: rgb(30, 30, 30);
+}
+.modeLight{
+    color: black;
+    background-color: rgb(225, 225, 225);
+}
+
+.modeDark{
+    color: white;
+    background-color: rgb(168, 168, 168);
+}
+.heroText{
+    color: white;
+}
+.heroTextLight{
+    color: black;
+}
+.modeText{
+    color: white;
+}
+.modeTextLight{
+    color: black;
+    background: rgb(179, 179, 179);
+}
+.cardMode{
+    background-color: rgb(116, 116, 116);
+}
+.cardModeLight{
+    background-color: rgb(180, 180, 180);
+}
+
+
+/* Hero video etra style*/
+#heroVideo {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+}
+
+#videobcg {
+    width: inherit;
+    height: inherit;
+    /* -o-filter: blur(1px);
+    filter: blur(2px); */
+    object-fit: cover;
+    transform: scale(1.02);
+    z-index: -1000;
+    position: absolute;
+    left: -1px;
+}
+
+.heroContent {
+    position: absolute;
+    top: 39%;
+    z-index: -1;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 3.5rem;
+    background-color: rgba(145, 0, 0, 0.5);
+}
+
+
+.content h1 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heroImg {
+    height: 70%;
+}
+
+/* mainBody area style  */
+
+.intro {
+    border-top: 2px solid rgb(196, 196, 196);
+    margin-top: 4rem;
+
+}
+
+
+.imgbox {
+    margin: 3rem 0;
+    border-top: 8px solid rgb(145, 0, 0);
+    border-right: 8px solid rgb(145, 0, 0);
+    align-self: center;
+    /* box-shadow: 1px 1px 2px rgb(112, 67, 67), 0 0 25px rgb(117, 78, 78), 0 0 5px rgb(100, 100, 100); */
+}
+
+.card-box {
+    /* background-color: rgb(255, 250, 231); */
+    margin-left: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: justify;
+    height: 28vw;
+    overflow: scroll;
+    /* box-shadow: 1px 1px 2px rgb(100, 100, 100), 0 0 25px rgb(100, 100, 100), 0 0 5px rgb(100, 100, 100); */
+}
+
+.link1 {
+    color: rgb(200, 0, 0);
+}
+
+
+
+/* vardeOrd block */
+
+.vardeOrd {
+    margin-top: 2rem;
+    background-color: darkred;
+    text-align: center;
+    padding: 1vw;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.vardeOrd h1 {
+    padding-bottom: 1vw;
+}
+
+.vardeOrd p {
+    text-align: center;
+
+}
+
+/*vardeOrd card*/
+
+.kvImg {
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: none;
+    color: rgb(92, 92, 92);
+}
+
+.cardGutter {
+    justify-content: space-between;
+}
+
+.card-title {
+    background-color: rgb(145, 0, 0);
+    color: rgb(240, 240, 240);
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+}
+
+.btnCard {
+    background: rgb(145, 0, 0);
+    border: none;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* puzzel img and text  */
+.puzzel {
+    width: 100%;
+}
+
+.puzzel-text p{
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+  
+}
+
+
+/* puzzel img style */
+.container-puzzel {
+    width: 36rem;
+    height: 32rem;
+}
+
+#saker:hover {
+    transform: scale(1.4);
+
+}
+
+#god:hover {
+    transform: scale(1.4);
+
+}
+
+#inte:hover {
+    transform: scale(1.3);
+
+}
+
+#naring:hover {
+    transform: scale(1.3);
+
+}
+
+#miljo:hover {
+    transform: scale(1.4);
+
+}
+
+#trivsam:hover {
+    transform: scale(1.3);
+
+}
+
+.accordion-button {
+    background: rgb(50, 50, 50);
+    color: rgb(240, 240, 240);
+}
+
+
+.accordion-body {
+    background: rgb(50, 50, 50);
+    color: rgb(240, 240, 240);
+}
+
+/* service port  */
+.servicePort {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.servicePort img {
+    width: 60%;
+}
+
+/* footer style  */
+
+.footer {
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 50px;
+    background-color: darkred;
+}
+
+.foot {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.foot li a {
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+    text-decoration: underline;
+    line-height: 50px;
+    transition: all 0.3s;
+}
+
+.foot li a:hover {
+    color: rgba(224, 201, 48, 0.856);
+}
+
+
+.kontakt-info {
+    text-decoration: none;
+    width: 70%;
+}
+
+.kontakt-info div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    color: white;
+}
+
+.foot-logo img {
+    width: 50%;
+}
+
+.outer {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width:599px) {
+    .kontakt-info {
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .kontakt-info div {
+        font-size: 1.1rem;
+    }
+
+    .foot-logo img {
+        width: 60%;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:600px) and (max-width:767px) {
+    .kontakt-info {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .kontakt-info div {
+        font-size: 1.1rem;
+        width: 28%;
+    }
+
+    .foot-logo img {
+        width: 60%;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .kontakt-info {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .kontakt-info div {
+        font-size: 1.1rem;
+        width: 28%;
+    }
+
+    .foot-logo img {
+        width: 60%;
+        margin-top: 1rem;
+    }
+
+}
+
+/* puzzel and footer @media */
+
+@media (max-width: 599px) {
+    .container-puzzel {
+        display: none;
+        transform: scale(0.6);
+        margin: auto;
+    }
+
+    .puzzel-text {
+        width: 90%;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .mediaCard {
+        display: block;
+        width: 100%;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-puzzel {
+        transform: scale(0.9);
+        margin: 0 auto;
+    }
+
+    .puzzel-text {
+        width: 90%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .mediaCard {
+        display: block;
+        width: 100%;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+
+
+    .container-puzzel {
+        transform: scale(.9);
+        margin: auto;
+    }
+
+    .puzzel-text {
+        width: 90%;
+        font-size: 1rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .mediaCard {
+        display: block;
+        width: 100%;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 2vw;
+    }
+}
+
+/* @mixin for-tablet-landscape-up { */
+@media (min-width: 900px) {
+    .puzzel {
+        display: block;
+    }
+
+    .puzzel-text {
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .mediaCard {
+        display: block;
+        width: 100%;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1308px) {
+
+
+    .container-puzzel {
+        transform: scale(1.03);
+        width: 36rem;
+        height: 36rem;
+        margin-top: 2rem;
+    }
+
+    .puzzel-text {
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* @mixin for-desktop-only { */
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .puzzel {
+        display: block;
+    }
+
+    .container-puzzel {
+        margin: 2rem auto;
+        transform: scale(1.05);
+    }
+
+    .puzzel-text {
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .mediaCard {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cardVarde {
+        width: 32%;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 1rem;
+    }
+}
+
+/* @mixin for-big-desktop-up { */
+@media (min-width: 1800px) {
+    .puzzel {
+        display: block;
+    }
+
+    .container-puzzel {
+        transform: scale(1);
+        margin: 0 auto;
+    }
+
+    .puzzel-text {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .mediaCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .cardVarde {
+        width: 32%;
+        ;
+    }
+
+    .foot {
+        display: flex;
+
+    }
+
+    .foot li a {
+        font-size: 1rem;
+    }
+}
+
+/* Go top function */
+#goTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(151, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#goTop:hover {
+    background-color: rgb(145, 0, 0);
+}
+
+
+.modeBtn {
+    line-height: 1.5rem;
+    margin: 2rem 0 4rem 2rem;
+    padding: 0px;
+    font-size: .8rem;
+    width: 10rem;
+    background-color: rgba(0, 0, 0, 0.446);
+    border: 1.5px solid rgb(145, 0, 0);
+}
+
+.modeCard {
+    background-color: dimgray;
+}

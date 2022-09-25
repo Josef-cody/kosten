@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style-folj oss.css">
+  <link rel="stylesheet" href="./index.css">
+ <title>Tierps kommun Kostenheten</title>
+</head>
+
+<body class="mode" id="mode">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100" style="z-index: 1000;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="img-fluid float-start" style="width: 50px;"
+            src="./image/Tierp2, färg, två rader.png" alt="logo photo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapseMenu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Kontack.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./recept.html">Recept</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <!-- Go top function -->
+    <button onclick="topFunction()" id="goTop" title="Go to top">Top</button>
+
+    <bodyArea>
+      <div id="heroVideo">
+        <video style="position:absolute; left: -1%;" id="videobcg" playsinline preload="auto" autoplay="true"
+          loop="loop" muted volume="0">
+          <source src="./videos/herovideo.mp4" type="video/mp4"> Sorry, your browser does not support HTML5
+          video.
+        </video>
+      </div>
+      <div class="heroContent">
+        <h1 data-aos="fade-up" data-aos-duration="3000">TIERPS KOMMUN KOSTENHETEN</h1>
+        <p data-aos="fade-up" data-aos-duration="3000">Tierps kommun är en grön och harmonisk oas för hela livet. <br>
+          Här förenas landsbygdens lugn med närheten till storstadens puls.</p>
+      </div>
+
+      <button class="btn btn-danger modeBtn" id="changeMode">Light Mode</button>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div data-aos="fade-up" data-aos-duration="3000" class="row justify-content-center intro">
+            <div class="col-md-7 order-2">
+              <div><img data-aos="fade-in" class="img-fluid float-start imgbox" src="./image/lagamat.jpg" alt=""></div>
+            </div>
+            <div class="col-lg-5 order-3">
+
+              <div>
+                <div class="card-box">
+                  <h4 style="color: rgb(159, 0, 0);">Om oss</h4><br>
+                  <h2 class="fs-3 text-left heroText">Tierpskommun Kostenheten</h2><br>
+                  <p  class="fs-6 text-left heroText pt-2 pb-3 overflow-auto">Inom
+                    kommunen tillagas
+                    varje dag ca 4500 portioner mat
+                    vilka serveras inom förskolan, skolan, äldreomsorgen och hemtjänsten. <br><br>
+
+                    Maten lagas på de nio tillagningskök som är geografiskt utspridda i kommunen för att täcka
+                    behovet. <br><br>
+
+                    Hälsa ,miljö och hållbarhet är i fokus i mat vårt arbete. <br><br>
+
+                    Det innefattar att erbjuda hälsosamma och näringsriktiga måltider men även att fylla ett
+                    pedagogiskt och lärande syfte för de som i slutändan konsumerar maten. <br><br>
+
+                    Det innefattar även att arbeta för minskad klimatpåverkan, ökad andel gröna rätter samt minskat
+                    matsvinn, i enlighet med Agenda 2030. <br><br><br>
+
+                    <em style="font-size: 1.5rem;">Mat ska älskas inte kastas!</em></p>
+                </div>
+                <a href="./hurviarbeta.html">
+                  <p class="link1 block text-decoration-underline text-center mb-5 mt-5">Läs mer om hur vi arbeta <i class="fa-solid fa-circle-chevron-right"></i></p>
+                </a>
+              </div>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000"
+              class="col-md-12 order-3 heroText">
+              <div class="vardeOrd mb-5 mt-5">
+                <h3>Kommunens värdeord</h3>
+                <p>Vi som arbetar inom kostenheten ska i alla situationer i vårt förhållningssätt utgå från
+                  kommunens värdeord</p>
+              </div>
+              <div id="card" class="card  mb-3" style="max-width:100%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./image/respekt.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 cardMode">
+                    <div class="card-body">
+                      <h5 class="card-title ps-3 pe-3" style="width: fit-content;">Respekt</h5>
+                      <p class="modeText">Behandla andra som du själv vill bli behandlad. För en dialog, ge
+                        varandra plats och delta aktivt. Passa tider och håll överenskommelser.</p>
+                      <h5 class="card-title ps-3 pe-3" style="width: fit-content;">Mod</h5>
+                      <p class="modeText">Våga göra annorlunda. Tänk nytt och ompröva. Ifrågasätt ditt eget
+                        och andras arbete på ett konstruktivt sätt, stötta varandra.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cardGutter mediaCard">
+
+                <div data-aos="fade-up" data-aos-duration="1700" class="card cardMode cardVarde" >
+                  <img src="./image/Ansvar.jpg" class="card-img-top kvImg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ansvar</h5>
+                    <p class="modeText">Var lojal, stå för fattade beslut och ta ansvar för helheten. Initiera
+                      frågor, delge dina erfarenheter och prioritera tillsammans.</p>
+
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2200" class="card cardMode cardVarde">
+                  <img src="./image/Framtidstro.jpg" class="card-img-top kvImg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Framtidstro</h5>
+                    <p class="modeText">Lär av det förgångna men blicka framåt. <br> Utvärdera arbetet, fastna
+                      inte i nuet och planera framåt. </p>
+
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="card cardMode cardVarde">
+                  <img src="./image/kundfukus.jpg" class="card-img-top kvImg" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kundfokus</h5>
+                    <p class="modeText">Fundera hur ditt eget handlande
+                      överensstämmer med och påverkar helheten och medborgarnyttan. <br><br></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div data-aos="fade-up-left" data-aos-duration="3000" class="col-xl-2 intro">
+          <sidwBar class="sideBar container">
+            <div class="col-xl-12">
+              <div class="card mb-4 cardMode">
+                <div class="card-body">
+                  <h5 class="card-title">Vision</h5>
+                  <p class="modeText">Tierps kommun är en grön och harmonisk oas för hela livet.
+                    Här förenas landsbygdens lugn med närheten till storstadens puls.
+                    Vi använder kraften ur vår historia och med engagemang och företagsamhet går vi
+                    gemensamt tryggt in i framtiden.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-12">
+              <div data-aos="fade-up-left" data-aos-duration="3000" class="card cardMode" id="card5">
+                <div class="card-body">
+                  <h5 class="card-title">Service port</h5>
+                  <div class="servicePort">
+                    <a href="https://lonecentrum.se/"><img src="./image/lonecentrum.png" alt="">
+                    </a>
+
+                    <a
+                      href="https://portalen.tierp.se/TIERPK/Login/?wa=wsignin1.0&wtrealm=https%3a%2f%2fportalen.tierp.se%2fTIERPK%2fMenu%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252fTIERPK%252fMenu%252fAccount%252fLogin%253fReturnUrl%253d%25252fTIERPK%25252fMenu%25252f&wct=2022-08-31T14%3a08%3a23Z&wreply=https%3a%2f%2fportalen.tierp.se%2fTIERPK%2fMenu%2f"><img
+                        src="./image/sjalvservice.png" alt="">
+                    </a>
+
+                    <a
+                      href="https://epost.tierp.se/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fepost.tierp.se%2fowa%2f"><img
+                        src="./image/webmail.png" alt="">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-12">
+              <div data-aos="fade-up-left" data-aos-duration="3000" class="cardSide mt-5">
+                <h5 class="card-title mb-3">Varan köket</h5>
+                <div class="accordion" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button style="background-color: rgb(145, 0, 0)" class="accordion-button collapsed text-light" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        Aspenköket
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the class. This is the first item's accordion body. <a href="#">Link to koket</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button style="background-color: rgb(145, 0, 0)" class="accordion-button collapsed text-light" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
+                        Centralskolansköket
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the class. This is the first item's accordion body. <a href="#">Link to koket</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button style="background-color: rgb(145, 0, 0)" class="accordion-button collapsed text-light" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                        aria-controls="flush-collapseThree">
+                        Söderforsköket
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the class. This is the first item's accordion body. <a href="#">Link to koket</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="insidan">
+
+            </div>
+          </sidwBar>
+        </div>
+
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="puzzel">
+        <div class="container-puzzel">
+          <a
+            href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/saker"><img
+              id="saker" style="position: relative; top: 43px; left: 39px;" src="./image/saker.png" alt=""></a>
+          <a
+            href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/god"><img
+              id="god" src="./image/god.png" alt=""></a>
+          <a
+            href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/integrerad"><img
+              id="inte" style="position: relative; top: -200px; right: -310px;" src="./image/integrerad.png" alt=""></a>
+          <a
+            href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/naringsriktig"><img
+              id="naring" style="position: relative; top: -55px; left: -210px;" src="./image/naring.png" alt=""></a>
+          <a href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/miljosmart""><img 
+              style=" position: relative; top: -235px; left: 175px;" id="miljo" src="./image/miljosmart.png"
+            alt=""></a>
+          <a
+            href="https://www.livsmedelsverket.se/matvanor-halsa--miljo/maltider-i-vard-skola-och-omsorg/maltidsmodellen/trivsam"><img
+              id="trivsam" style="position: relative; top: -270px; left: 73px;" src="./image/Trivsam.png" alt=""></a>
+        </div>
+        <div class="puzzel-text modeText">
+          <p>Vår servicevision är att kunna ge det lilla extra och läsa av kunders behov. Vi vill bidra
+            till ökad måltidsglädje med stor kunskap om måltidspedagogik. Vi är väl medvetna
+            om måltidspusslets övriga delar som bidrar till en trivsam, god och hållbar måltid. Vi
+            vill kunna agera som goda förebilder för de yngsta kunderna, med måltidsupplevelser
+            de tar med sig resten av livet. För de äldre kunderna önskar vi kunna ge guldkant i
+            vardagen som väcker deras sinnen och minnen. </p>
+        </div>
+      </div>
+
+      <section class="section-3 w-75 m-auto">
+        <h1 class="fs-6 mt-4">Följ Oss</h1>
+        <a id="FO1" href="https://www.instagram.com/nyacentralkoket/"><i class="fa-brands fa-square-instagram"></i>&nbsp
+          CENTRALSKOLANSKÖKET</a>&nbsp &nbsp
+        <a id="FO2" href="https://www.instagram.com/matiorbyhus/"><i class="fa-brands fa-square-instagram"></i>&nbsp
+          ÖRBYHUSSKOLANSKÖKET</a>&nbsp &nbsp
+        <a id="FO3" href="https://www.instagram.com/skolmat_vendel/"><i class="fa-brands fa-square-instagram"></i>&nbsp
+          VENDELSKOLANKÖKET</a>&nbsp &nbsp
+        <a id="FO4" href="https://www.youtube.com/channel/UCI1wNW0_2ZeZO8woJ-U3Q8w"><i
+            class="fa-brands fa-youtube"></i>&nbsp
+          YOUTEBE</a>
+      </section>
+
+    </bodyArea>
+
+
+  </main>
+  <footer>
+    <div class="footer">
+      <div>
+        <ul class="foot">
+          <li><a href="http://www.tierp.se">Tierp.se</a></li>
+          <li><a href="http://webmenu.foodit.se/?r=3&m=360&p=580&c=10110&w=0&v=Week">Matsedel</a></li>
+          <li><a
+              href="https://www.tierp.se/tierp.se/forskola-och-utbildning/skolbarn-6-16-ar/mat-i-skolan.html">Specialkost</a>
+          </li>
+          <li><a href="https://www.livsmedelsverket.se/">Livsmedelsverket</a></li>
+        </ul>
+      </div>
+      <div class="outer">
+        <div class="kontakt-info">
+          <div>Tierps kommun <br>
+            Centralgatan 7 <br>
+            815 80 Tierp
+          </div>
+          <div>
+            Tel. växel: 0293-21 80 00 <br>
+            Medborgarservice: 0293-21 80 88 <br>
+            E-post: medborgarservice@tierp.se
+          </div>
+          <div class="foot-logo">
+            <img src="./image/Tierp1-1rad.png" alt="">
+          </div>
+        </div>
+      </div>
+      <h5
+        style="text-align: center; font-size: 2vmin; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: rgb(0, 0, 0); color: white; padding: 30px;">
+        © 2022 Josef.Abliz
+        .All Rights reserved &nbsp TIERPS KOMMUN KOSTENHETEN</h5>
+    </div>
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/35d01a1b9d.js" crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  <script src="./index.js"></script>
+  
+  
+
+</body>
+
+</html>

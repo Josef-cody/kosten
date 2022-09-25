@@ -1,0 +1,350 @@
+
+.vgv {
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.dropbtn-h {
+    width: 80%;
+    background-color: darkred;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dropbtn-h:hover,
+.dropbtn-h:focus {
+    background-color: rgb(184, 0, 0);
+}
+
+.dropdown-h {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.dropbtn-h h1{
+    padding: 1rem;
+}
+
+.dropdown-content-h {
+    display: none;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    background-color: rgb(135, 135, 135);
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.dropdown-h:hover .dropdown-content-h {
+    display: block;
+}
+
+.dropdown-content-h p {
+    color: white;
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.dropdown-h:hover .dropbtn-h {
+    background-color: rgb(184, 0, 0);
+}
+
+.show {
+    display: block;
+}
+
+.kunder {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.vkhv {
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    border-radius: 20px;
+    background-color: darkred;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-kund {
+    display: flex;
+    margin: 3rem auto;
+    justify-content: center;
+}
+
+.card-box {
+    /* margin-left: 5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 8px solid darkred;
+    border-right: 8px solid darkred;
+    border-bottom-right-radius: 10px;
+}
+
+.dropbtn-s {
+    width: 80%;
+    background-color: darkred;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dropbtn-s:hover,
+.dropbtn-s:focus {
+    background-color: rgb(184, 0, 0);
+}
+
+.dropdown-s {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.dropbtn-s h1{
+    padding: 1rem;
+}
+
+.dropdown-content-s {
+    display: none;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    background-color: rgb(160, 160, 160);
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+.dropdown-s:hover .dropdown-content-s {
+    display: block;
+}
+
+.dropdown-content-s p {
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.dropdown-s:hover .dropbtn-s {
+    background-color: rgb(184, 0, 0);
+}
+
+.show {
+    display: block;
+}
+
+/* @mixin for-phone-only { */
+@media (max-width: 599px) {
+    #container {
+        height: 50vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 35%;
+    }
+
+    .section-kund {
+        display: block;
+    }
+
+    .card-box {
+        margin: 1rem 0;
+    }
+
+    .imgBox img {
+        /* position: absolute; */
+        width: 100%;
+    }
+
+}
+
+/* @mixin for-tablet-portrait-up { */
+@media (min-width: 600px) {
+    #container {
+        height: 45vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+    }
+
+    .section-kund {
+        display: block;
+    }
+
+    .card-box {
+        margin: 1rem 0;
+    }
+
+    .imgBox img {
+        width: 100%;
+    }
+
+}
+
+/* @mixin for-tablet-portait-only { */
+@media (min-width: 600px) and (max-width: 899px) {
+    #container {
+        height: 60vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+    }
+
+    .section-kund {
+        display: block;
+    }
+
+    .card-box {
+        margin: 1rem 0;
+    }
+
+    .imgBox img {
+        width: 100%;
+    }
+
+}
+
+/* @mixin for-tablet-landscape-up { */
+@media (min-width: 900px) {
+    #container {
+        height: 45vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .imgBox {
+        width: 80%;
+    }
+}
+
+/* @mixin for-tablet-landscape-only { */
+@media (min-width: 900px) and (max-width: 1199px) {
+    #container {
+        height: 90vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 65%;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .imgBox {
+        width: 80%;
+    }
+
+}
+
+/* @mixin for-desktop-up { */
+@media (min-width: 1200px) {
+    #container {
+        height: 100vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 75%;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .imgBox {
+        width: 80%;
+    }
+}
+
+/* @mixin for-desktop-only { */
+@media (min-width: 1200px) and (max-width: 1799px) {
+    #container {
+        height: 100vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 75%;
+    }
+    .kunder{
+        width: 60%;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .imgBox {
+        width: 80%;
+    }
+}
+
+/* @mixin for-big-desktop-up { */
+@media (min-width: 1800px) {
+    #container {
+        height: 100vh;
+    }
+
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 75%;
+    }
+    .kunder{
+        width: 50%;
+    }
+
+    .section-kund {
+        display: flex;
+    }
+
+    .imgBox {
+        width: 80%;
+    }
+}

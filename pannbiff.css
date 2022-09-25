@@ -1,0 +1,53 @@
+
+
+.recept{
+    width: 100%;
+    align-self:flex-start;
+    color: white;
+    text-align: left;
+}
+.recept h1{
+    padding: 2rem;
+    font-size: 6vw;
+}
+.recept h4{
+    padding: 1rem;
+    
+}
+.recept p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 1rem;
+}
+.amount {
+    display:inline-block;
+    width: 5rem;
+    height: fit-content;
+    min-height: 2rem;
+    background-color: rgb(175, 175, 175);
+    justify-items: center;
+    line-height: 2rem;
+}
+
+.back{
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.parent{
+    display: flex;
+    justify-content:space-evenly;
+}
+.parent span{
+    display: block;
+    padding: 10px;  
+    
+}
+.intro {
+    border-top: 2px solid rgb(196, 196, 196);
+    margin-top: 4rem;
+    
+}
